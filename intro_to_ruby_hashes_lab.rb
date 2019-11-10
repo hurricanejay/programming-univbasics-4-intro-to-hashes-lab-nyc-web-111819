@@ -27,8 +27,7 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  read [hash]
-  read [key]
+  read = {key => value}
   
 end
 
