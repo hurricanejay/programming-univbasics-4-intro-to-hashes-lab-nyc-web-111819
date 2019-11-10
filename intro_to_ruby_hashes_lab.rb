@@ -27,7 +27,7 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  return value = [:key]
+  return value = [:name]
   
 end
 
