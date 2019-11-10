@@ -27,8 +27,13 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  read_from_hash = {key = "Steve"}
+  read_from_hash = {key => value}
+  key = "Tzai"
   
+  
+     it "returns the value corresponding to the provided key" do
+      expect(read_from_hash({name: 'Steve'}, :name)).to eq('Steve')
+      expect(read_from
 end
 
 def update_counting_hash(hash, key)
